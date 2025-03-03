@@ -116,9 +116,9 @@ const USER_CONFIG = {
       // 使用其他通道时，请填写 config/template-config.cjs 中某个想要使用的模板的id
       useTemplateId: 'lxbmjCMQb1ptdlHI5Nf09CbmM1y7FcpPjUXiiQooFgc',
       // 所在省份或城市，也可以不填
-      province: '惠州',
+      province: '河北',
       // 所在城市或县区
-      city: '惠阳',
+      city: '秦皇岛',
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '12-27',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
@@ -243,19 +243,7 @@ const USER_CONFIG = {
       customizedDateList: [],
       courseSchedule: null
     },
-    {
-      name: '老婆3',
-      id: '',
-      useTemplateId: '',
-      province: '',
-      city: '',
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: 'https://wangxinleo.cn',
-      festivals: [],
-      customizedDateList: [],
-      courseSchedule: null
-    }
+
     // 你可以不断按格式往下增加
     // ...
   ],
@@ -266,7 +254,7 @@ const USER_CONFIG = {
 
   // 使用微信测试号：【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
   // 使用其他通道时，请填写 config/template-config.cjs 中【推送完成提醒】模板的id
-  CALLBACK_TEMPLATE_ID: '',
+  CALLBACK_TEMPLATE_ID: '	nN9E-q7AhcJPHy8huNSqJ6GXC6qjlDqSMpZalVWfyRM',
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
